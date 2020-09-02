@@ -66,7 +66,7 @@ nav {
 }
 
 nav a {
-    margin: 2% 11%;
+    margin: 2% 10%;
     border-radius: 10px;
     padding: 0.5% 1%;
     color: white;
@@ -125,12 +125,23 @@ h1 {
     padding: 1%;
 }
 
-.campfire {
+.campfire, .rv {
     width: 15%;
     margin: 3% auto;
 }
 
-.campfire img {
+.campfire img, .rv img {
     margin: 0 auto;
     width: 50%;
+}
+
+.image {
+    background-image: url("./assets/footer_img.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    width: 100%;
 }
