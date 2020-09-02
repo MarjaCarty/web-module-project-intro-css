@@ -90,6 +90,7 @@ nav a {
 
 /* End Nav Styling */
 
+/* Header Styling */
 header div img {
     width: 20%;
     border-radius: 100%;
@@ -114,6 +115,8 @@ h1 {
     padding: 5%;
 }
 
+/* End header styling */
+
 .info {
     width: 90%;
     margin: 0 auto;
@@ -134,6 +137,8 @@ h1 {
     margin: 0 auto;
     width: 50%;
 }
+
+/* Footer Styling */
 
 .image {
     width: 100%;
