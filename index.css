@@ -26,7 +26,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -45,3 +46,46 @@ table {
 }
 
 /* End reset */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+/* Nav Styling */
+
+nav button {
+    font-family: "Roboto Mono", sans-serif;
+    margin: 2% 12.5%;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5% 1%;
+    width: 8%;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.orange {
+    background-color: #FF764E;
+}
+
+.blue {
+    background-color: #5ED3EB;
+}
+
+.yellow {
+    background-color: #FFCD69
+}
+
+.beige {
+    background-color: #F9E7DC;
+}
+
+/* End Nav Styling */
+
+h1 {
+    font-family: "Chelsea Market", sans-serif;
+}
