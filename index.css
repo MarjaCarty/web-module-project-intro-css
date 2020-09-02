@@ -138,6 +138,10 @@ h1 {
     width: 50%;
 }
 
+strong {
+    font-weight: 700;
+}
+
 /* Footer Styling */
 
 .image {
