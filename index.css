@@ -136,10 +136,13 @@ h1 {
 }
 
 .image {
-    background-image: url("./assets/footer_img.jpg");
+    width: 100%;
     height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
 }
 
 footer {
