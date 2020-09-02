@@ -54,6 +54,8 @@ html {
 body {
     font-family: "Roboto Mono", sans-serif;
     font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5;
 }
 
 /* Nav Styling */
@@ -89,17 +91,17 @@ nav a {
 /* End Nav Styling */
 
 header div img {
-    width: 25%;
+    width: 20%;
     border-radius: 100%;
-    margin: 2% 5%;
+    margin: 3% 5%;
 }
 
 .title-block {
     width: 50%;
     display: inline-block;
-    text-align: center;
     font-size: 2rem;
     vertical-align: top;
+    padding-top: 4%;
 }
 
 .title-block p {
@@ -109,6 +111,26 @@ header div img {
 h1 {
     font-family: "Chelsea Market", sans-serif;
     font-size: 7rem;
-    text-align: center;
     padding: 5%;
+}
+
+.info {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #DDB9A3;
+    color: white;
+}
+
+.info p {
+    padding: 1%;
+}
+
+.campfire {
+    width: 15%;
+    margin: 3% auto;
+}
+
+.campfire img {
+    margin: 0 auto;
+    width: 50%;
 }
